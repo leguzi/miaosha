@@ -1,2 +1,6 @@
-.idea/
-cmd/conf.json
+*.exe
+conf.ini
+bin/
+
+node_modules/
+dist/

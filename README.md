@@ -1,4 +1,20 @@
 # miaosha
-从零开始基于Golang实现秒杀系统，第一阶段是单体架构，重点是实现功能，为了更好的掌握基础知识，尽量不依赖第三方框架，采用Jenkins+Docker部署，仅包括用户、产品、订单、支付等必要模块，文档也将逐渐完善，欢迎一起学习交流。
 
-学习交流QQ群：948521555
+> 基于 Golang 实现秒杀功能。
+
+## 技术栈
+
+前端（miaosha-h5）：Vue.js、Vant、Vue-Router、Axios
+
+服务端（miaosha-server）：Golang、Gin、SQLX、MySQL、Redis
+
+## 截图
+
+![登录](./snapshot/login.png) ![商品列表](./snapshot/goods-list.png)
+
+![商品详情](./snapshot/goods.png) ![秒杀](./snapshot/miaosha.png)
+
+![订单详情](./snapshot/order.png) ![订单列表](./snapshot/order-list.png)
+
+![用户信息](./snapshot/user-info.png) ![退出登录](./snapshot/logout.png)
+
